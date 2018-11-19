@@ -2,7 +2,7 @@
 Linux Tools
 
 This image provides all-in-one Ubuntu Management node with built-in tools and utilities commonly used by Linux 
-Administrators. Following tools are covered in this container
+Administrators. 
 
 <b>Build</b>
 <p>#docker build -t linux-tools:latest r2rajan/linux-tools/.  </p>
@@ -12,6 +12,8 @@ Administrators. Following tools are covered in this container
 <p>NMAP to query a web server on port 443 for SSL ciphers </p>
 
 <p>#docker exec mystifying_bardeen nmap -sV --script /opt/linux-tools/nmap/ssl-enum-ciphers "Destination Host" -p443 </p>
+
+<b>Following tools are covered in this container</b>
 
 <b>NMAP - Network Mapper</b>
 
